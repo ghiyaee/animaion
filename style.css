@@ -51,12 +51,12 @@ border: 1px solid rgb(211, 211, 208);
     left: -10px;
 } */
 @keyframes anim{
-25%{
+  25%{
      transform: translateX(195px) ;
- }
+     }
     50%{
-     transform:  translateX(197px) translateY(201px);
-    }
+     transform:  translateX(195px) translateY(201px);
+      }
    75%{
         transform:  translateX(-4px) translateY(195px);
     }
