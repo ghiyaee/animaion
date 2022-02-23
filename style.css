@@ -3,29 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #000;
+}
 .circle{
  position: absolute;
  top:50%;
  left: 50%;
- background: lightpink;
+ background: rgb(250, 255, 182);
  width: 200px;
  height: 200px;
 transform: translate(-50%,-50%);
 border-radius: 5%;
 background: transparent;
-border: 1px solid #000;
- /* animation: anim 15s linear infinite; */
+border: 1px solid rgb(221, 245, 2);
 }
 
 .circle::after{
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
-    background: tomato;
-    border-radius: 50%;
-    top:-10px;
-    left: -10px;
+    width:8px;
+    height: 8px;
+    background: rgb(206, 255, 71);
+    box-shadow: 1px 1px 10px 1px yellowgreen;
+    border-radius: 40%;
+    top:-6px;
+    left: -0px;
       animation: anim 10s linear infinite;
 }
 /* .line {
@@ -52,10 +55,10 @@ border: 1px solid #000;
      transform: translateX(195px) ;
  }
     50%{
-     transform:  translateX(195px) translateY(195px);
+     transform:  translateX(197px) translateY(201px);
     }
    75%{
-        transform:  translateX(-0px) translateY(195px);
+        transform:  translateX(-4px) translateY(195px);
     }
    
 }
