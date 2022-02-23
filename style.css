@@ -16,7 +16,8 @@ body{
 transform: translate(-50%,-50%);
 border-radius: 5%;
 background: transparent;
-border: 0.5px solid rgb(37, 37, 36);
+border: 0.5px solid rgb(54, 54, 51);
+animation: opc 20s linear infinite;
 }
 
 .circle::after{
@@ -25,11 +26,11 @@ border: 0.5px solid rgb(37, 37, 36);
     width:8px;
     height: 8px;
     background: rgb(206, 255, 71);
-    box-shadow: 1px 2px 10px 1px yellowgreen;
+    box-shadow: 1px 2px 10px 1px #ffd60a;
     border-radius: 40%;
     top:-6px;
     left: -0px;
-      animation: anim 10s linear infinite;
+   animation: anim 15s linear infinite;
 }
 /* .line {
     width: 50%;
@@ -61,4 +62,19 @@ border: 0.5px solid rgb(37, 37, 36);
         transform:  translateX(-5px) translateY(200px);
     }
    
+}
+
+@keyframes opc{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+   75%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
 }
