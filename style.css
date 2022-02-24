@@ -17,7 +17,7 @@ transform: translate(-50%,-50%);
 border-radius: 5%;
 background: transparent;
 border: 0.5px solid rgb(54, 54, 51);
-animation: opc 20s linear infinite;
+animation: opc 15s linear infinite;
 }
 
 .circle::after{
@@ -30,7 +30,7 @@ animation: opc 20s linear infinite;
     border-radius: 40%;
     top:-6px;
     left: -0px;
-   animation: anim 15s linear infinite;
+   animation: anim 5s linear infinite;
 }
 /* .line {
     width: 50%;
